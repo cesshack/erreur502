@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+		<link rel="stylesheet" media="screen" type="text/css" title="Exemple" href="/css/maintenance.css"/>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<h1>
+<div Align=center style="padding:3px; border:5px double #3400f6; background-color:#ab30e0;"><span style="text-decoration: underline;"><i>Quatrième exercice !</i></span></div></h1>   
+ <div style="  padding-top:5px; padding-bottom:5px;border: 8px solid #FFFFFF; "> 
+<h3 style="color: "faf6f6;"> # -*- coding : utf8 -*- <br/>
+"""Calcul d'un prix TTC."""<br/>
+
+# Programme principal =========================================================<br/>
+prixHT = float(input("Prix HT (0 pour terminer) ?"))<br/>
+while prixHT > 0:<br/>
+    print("Prix TTC : { :.2f}\n".format(prixHT * 1.196))<br/>
+    prixHT = float(input("Prix HT (0 pour terminer) ?"))<br/>
+
+print("Au revoir !")<br/>
+</h3>
+</Div>
+<br/>
+
+<br/>
+<Div Align=center> <img src= "https://media3.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif?cid=ecf05e47stta0uvfbc0d0q7wcnqmgus71gzoehvm3gk3nrmt&rid=giphy.gif&ct=g"  width="25%"/> </Div>
+<br/>
+<br/>
+<h1>Encore une fois!</h1>
+<div><FONT size="5pt">Quelle type de boucle ?   qu'est-ce que HT et TTC ici ? <hidden> entrez un prix HT (entrez o pour terminer) et affichez sa valeur TTC.<hidden/></FONT>
+</div>
+<Div Align=left>
+<form method="post" action="ton_action">
+   <p>
+       HT et TTC :
+       <select name="le_nom" id="le_nom">
+           <option value="ta_valeur">prix</option>
+           <option value="ta_valeur">valeur</option>
+		   <option value="ta_valeur">nom</option>
+		   <option value="ta_valeur">fonction</option>
+           
+                   
+</select>
+   </p>
+</form>
+<br/>
+<Div Align=left>
+<form method="post" action="ton_action">
+   <p>
+       boucle:
+       <select name="le_nom" id="le_nom">
+           <option value="ta_valeur">while</option>
+           <option value="ta_valeur">for</option>
+		   <option value="ta_valeur">cloud</option>
+		   <option value="ta_valeur">if</option>
+           
+                   
+</select>
+   </p>
+</form>
+<br/>
+<Div Align=right>
+<a href="#"  class=" btn btn-primary" style="text-shadow:2px 2px 4px #000000;"> Retour en haut ↑</a></div>
+<div/>
+<br/>
+
+</div>   
+
+{% endblock %}

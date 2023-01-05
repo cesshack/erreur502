@@ -1,0 +1,71 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+		<link rel="stylesheet" href="{{ asset('css/ctf.css') }}">
+	
+
+		{% endblock %}
+		
+		{% block title %}   Bienvenue à l'IUT {% endblock %}
+		
+{% block body %}
+
+
+
+<div class="container">
+
+<h1><div Align=center style="padding:3px; border:5px double #3400f6; background-color:#ab30e0;"><span style="text-decoration: underline;"><i>Informations !</i></span></div></h1>   
+  
+<div style="  padding-top:5px; padding-bottom:5px;border: 8px solid #FFFFFF; "> 
+<h3 <p><i>Félicitation !</i></p>
+    <p> Si tu as réussi à venir jusqu'à la en faisant tout les excercices tu peux être fière de toi, mais se n'est pas fini!	</p>
+	<br/>
+	<p>Clique sur le formulaire :</p>
+	<Div Align=center>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeo6g5htluKYcoC9nFYCrd0Qj1BK9zvqIyvZrPadXjY6RKesw/viewform?usp=sf_link" title="clique ici !">
+	<img alt="texte alternatif pour le lien image" src="https://cdn2.clc2l.fr/t/g/o/google-forms-FlBdo4.png" width="120" height="75"/>
+	</Div>
+</a>
+</h3>
+</Div>
+
+<br/>
+<Div Align=center> <img src= "https://media0.giphy.com/media/g9582DNuQppxC/giphy.gif?cid=ecf05e47vnhn8ay7p35501gm3u6v0lmlgbm7vnek8dyki305&rid=giphy.gif&ct=g"  width="50%" title=" Tu as réussi !"  /> </Div>
+<br/>
+<Div Align=center>
+<h1><i>Concernant l'IUT de ROANNE!</i></h1>
+<div><FONT size="5pt">Si tu veux te renseigner sur l'IUT et le BUT je t'invite a cliquer sur l'image en dessous :</FONT>
+<br/>
+<br/>
+<a href="https://iut-roanne.univ-st-etienne.fr/fr/index.html" title="renseigne toi ici !">
+	<img alt="texte alternatif pour le lien image" src="https://iut-roanne.univ-st-etienne.fr/skins/iutroanne/resources//img/logo.png" width="120" height="75" />
+</a>
+<br/>
+
+<h1><i>Un peu de pratique!</i></h1>
+<div><FONT size="5pt"> le site "ROOTME" devrait te plaire si tu as aimé les activités :
+</FONT>
+</div>
+<br/>
+<a href="https://www.root-me.org/" title="C'est parti !">
+	<img alt="texte alternatif pour le lien image" src="data:image/png;base64,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" width="120" height="75" />
+</a>
+<br/>
+
+<h1><i>A ton tour!</i></h1>
+<div><FONT size="5pt"> Si tu veux savoir comment on a créer ce site ainsi que sa programmation, découvre Symfony :
+</FONT>
+</div>
+<br/>
+<a href="https://symfony.com/" title="Tout commence ici !">
+	<img alt="texte alternatif pour le lien image" src="https://symfony.com/images/opengraph/symfony.png" width="120" height="75"/>
+</a>
+<br/>
+
+<Div Align=right>
+<a href="#"  class=" btn btn-primary" style="text-shadow:2px 2px 4px #000000;"> Retour en haut ↑</a></div>
+<div/>
+<br/>
+
+
+
+{% endblock %}

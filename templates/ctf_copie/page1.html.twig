@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+		<link rel="stylesheet" media="screen" type="text/css" title="Exemple" href="/css/ctf.css"/>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+
+<h1><div Align=center style="padding:3px; border:5px double #3400f6; background-color:#ab30e0;"><span style="text-decoration: underline;"><i>Première exercice!</i></span></div></h1>   
+  
+
+
+<br/>
+<Div Align=center> <img src= "https://i.gifer.com/X0XF.gif"  width="50%" title=" Tu y es presque " réponse: Root12-3 /> </Div>
+<br/>
+<p> <font size="6">  <h1>C'est partie ! </h1>
+
+Dans ce premier exercice plutôt  simple, vous devriez retrouver le mot de passe cacher dans l'image en vous servons de l'outil "inspecté"
+ lorsque vous faites une clique droit sur votre souris. Rentrez le code trouvé s'il s'agit de la bonne réponse dans le formulaire. </font> </p></p>
+
+<br/>
+<div class="form-group">
+<label for="réponse">Votre réponse</label>
+<input type="password" class="form-control" name="réponse" id="réponse" size="30" maxlength="20"/>
+<br/>
+<input type="submit"  class=" btn btn-primary" name="Envoyer" value="Envoyer"/>
+
+
+<Div Align=right>
+<a href="#"  class=" btn btn-primary" style="text-shadow:2px 2px 4px #000000;"> Retour en haut ↑</a></div>
+<div/>
+<br/>
+</Div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+		<link rel="stylesheet" media="screen" type="text/css" title="Exemple" href="/css/maintenance.css"/>
+		
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<h1><div Align=center style="padding:3px; border:5px double #3400f6; background-color:#ab30e0;"><span style="text-decoration: underline;"><i> Troisième exercice !</i></span></div></h1>   
+ 
+ <div style="  padding-top:5px; padding-bottom:5px;border: 8px solid #FFFFFF; ">
+
+
+
+<h3 style="color: "faf6f6;"> # -*- coding : utf8 -*- <br/>
+"""Volume d'un cône droit."""<br/>
+
+# Import ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br/>
+from math import pi<br/>
+
+# Programme principal ===================================================<br/>
+rayon = float(input("Rayon du cône (m) :"))<br/>
+hauteur = float(input("Hauteur du cône (m) :"))<br/>
+
+volume = (pi*rayon*rayon*hauteur)/3.0<br/>
+print("Volume du cône =", volume, "m3")<br/>
+</h3>
+</Div>
+
+<br/>
+<Div Align=center> <img src= "https://media3.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif?cid=ecf05e47stta0uvfbc0d0q7wcnqmgus71gzoehvm3gk3nrmt&rid=giphy.gif&ct=g"  width="25%"/> </Div>
+<br/>
+<h1>Changement de registre !</h1>
+<div>Maintenant nous avons a faire a un exercice en Python, d'après vous 
+est-ce que le  programme si dessus, à partir de la saisie d'un rayon et d'une hauteur, calcule le volume d'un cône droit ?
+</div>
+
+<Div Align=center>
+<form method="post" action="ton_action">
+   <p>
+       
+       <select name="le_nom" id="le_nom">
+           <option value="ta_valeur">OUI</option>
+           <option value="ta_valeur">NON</option>
+           
+                   
+</select>
+   </p>
+</form>
+</div>   
+  
+<Div Align=right>
+<a href="#"  class=" btn btn-primary" style="text-shadow:2px 2px 4px #000000;"> Retour en haut ↑</a></div>
+<div/>
+<br/>
+{% endblock %}
