@@ -24,7 +24,7 @@ class CtfController extends AbstractController
 	 */
 	 public function home() 
 	 {
-		 return $this->render('ctf/home.html.twig',[
+		 return $this->render('html/home.html.twig',[
 			'title' => "bienvenue",
 			'age' => 31
 		]);
