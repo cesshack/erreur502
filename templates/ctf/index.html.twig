@@ -18,41 +18,50 @@
      </script>
      <link rel="icon" type="img/icon.png" href="img/icon.png" sizes="32x32">
 </head>
-<body class="antialised hide-extras">
-     
-
-<audio autoplay loop>
-  <source src="https://dl-web.dropbox.com/get/Public/Call%20of%20Duty%20Black%20Ops%202%20-%20Express%20Theme.mp3?_subject_uid=13406744&duc_id=dropbox_duc_id&w=AACds9Gc67jRLs0SWsEy6ero1eVj40ZwmTxutqNoOR0PDw" type="audio/mpeg">
-</audio>
-
-<div id="welcome-login">
-  <h1>Welcome to HACKSYS the hacking game!</h1>
-  <input id="login-input" type="text" placeholder="Hacker nickname">
-</div>
+<body>
+  <div class="overlay"></div>
+  <div class="scanline"></div>
+  <div class="wrapper">
+    <div class="content clearfix">
   
-<div id="terminal">
-    <div>Loading...<span id="blinking">_</span></div>
-</div>
-
-<div id="root">></div>
-<input id="input" type="text" placeholder="Enter your command here..." autofocus>
-
-<div id="time">Trace time: 0:00</div>
-
-<ol id="objectives">
-  Welcome to HACKSYS the hacking game.<br><br>
-  <div id="won">Congratulations! You are going to receive all the important conversations from this phone relay.</div>
-  <div id="lost">You got tracked down. You better run while you can... Computer autodistruction process will clean up the rest...</div><br>
-  Objectives:
-  <li id="help">Type 'help' in the console, at the bottom of the screen.</li>
-  <li id="list">Check the list of the currently available applications.</li>
-  <li id="connect">Connect to the nearest phone relay (connect nearest.phone.relay).</li>
-  <li id="trojan">Send a trojan to the phone relay you just connected to (send trojan).</li>
-  <li id="disconnect">Disconnect from the phone relay before you are traced down.</li>
-</ol>
-
-<script src="js/index.js"></script>
-
+      <header class="site clearfix">
+        <div class="col one">
+          <a href="https://hackcess.org"><img src="img/hackcess.jpg" alt="Hackcess" width="740" height="729" id="logo-v" /></a>
+        </div>
+        <div class="col two">
+          <h4>ERREUR 502 Systems (tm) <br /> <b>H</b>euristically <b>E</b>ncrypted <b>R</b>ealtime <b>O</b>perating <b>S</b>ystem (HEROS)</h4>
+          <p>----------------------------------------</p>
+          <p>ERREUR 502 v 1.0.0</p>
+          <p>(c)2023 HACKCESS / BDE RT</p>
+          <p>- ERREUR 502 NOT FOUND -</p>
+        </div>
+      </header>
+  
+      <nav class="site clear">
+        <ul>
+          <li><a href="#" title="">Return Home</a></li>
+          <li><a href="#" title="">Our Clients</a></li>
+          <li><a href="#" title="">Contact Us</a></li>
+        </ul>
+      </nav>
+  
+      <p>System Administrator Integrated Message System (SAIMS)</p>
+      <p>System Administrator (SYSADM) - Mack Richardson</p>
+  
+      <p class="clear"><br /></p>
+  
+      <p>Welcome to the System Administrator Integrated Message System (SAIMS). Fill out the fields below and press the SUBMIT button. The system administrator (SYSADM) will respond to your query after an appropriate amount of quiet contemplation. Thank you for contacting the System Administrator's Office.</p><br />
+  
+      <form>
+        <label>Name >></label><input type="text" /><br />
+        <label>Email >></label><input type="text" /><br />
+        <label>Subject >></label><input type="text" /><br />
+        <label>Message >></label><textarea id="text" rows="1"></textarea><br /><br /><br />
+        <input type="submit" value="Submit" />
+        <a class="button" alt="" href="index.html">Cancel</a>
+      </form>
+    </div>
+  </div>
 <footer>
   &copy; Copyright 2023 by Hackcess / BDE RT. All rights reserved.
 </footer>
