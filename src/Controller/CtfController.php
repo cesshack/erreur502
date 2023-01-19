@@ -15,18 +15,28 @@ class CtfController extends AbstractController
     public function index(): Response
     {
         return $this->render('ctf/index.html.twig', [
-            'controller_name' => 'TheoPortfolioController',
+            'controller_name' => 'CtfController',
         ]);
     }
       /**
+     * @Route("/intro", name="intro")
+     */
+    public function intro(): Response
+    {
+        return $this->render('ctf/intro.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+    /**
      * @Route("/challenges", name="challenges")
      */
     public function challenges(): Response
     {
         return $this->render('ctf/challenges.html.twig', [
-            'controller_name' => 'TheoPortfolioController',
+            'controller_name' => 'CtfController',
         ]);
     }
+
 
 
 
