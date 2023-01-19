@@ -10,11 +10,20 @@ use Doctrine\ORM\EntityManagerInterface;
 class CtfController extends AbstractController
 {
 	  /**
-     * @Route("/", name="theo_portfolio")
+     * @Route("/", name="index")
      */
     public function index(): Response
     {
         return $this->render('ctf/index.html.twig', [
+            'controller_name' => 'TheoPortfolioController',
+        ]);
+    }
+      /**
+     * @Route("/challenges", name="challenges")
+     */
+    public function challenges(): Response
+    {
+        return $this->render('ctf/challenges.html.twig', [
             'controller_name' => 'TheoPortfolioController',
         ]);
     }
