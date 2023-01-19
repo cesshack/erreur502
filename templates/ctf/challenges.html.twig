@@ -5,7 +5,10 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+
      <link rel="stylesheet" href="css/challenges.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
 
      <link href='https://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
      <title>{% block title %} [ERREUR 502]{% endblock %}</title>
@@ -21,27 +24,70 @@
      <link rel="icon" type="img/icon.png" href="img/icon.png" sizes="32x32">
 </head>
 <body>
-<script type="module" src="http://esm.sh/@atomico/keen-slider"></script>
+     <div class="main_box">
+    <input type="checkbox" id="check">
+    <div class="btn_one">
+      <label for="check">
+        <i class="fas fa-bars"></i>
+      </label>
+    </div>
+    <div class="sidebar_menu">
+      <div class="logo">
+        <a href="#">CodingLab</a>
+          </div>
+        <div class="btn_two">
+          <label for="check">
+            <i class="fas fa-times"></i>
+          </label>
+        </div>
+      <div class="menu">
+        <ul>
+          <li><i class="fas fa-qrcode"></i>
+            <a href="#">Dashboard</a>
+          </li>
+          <li>
+            <i class="fas fa-link"></i>
+            <a href="#">Shortcuts</a>
+          </li>
+          <li>
+            <i class="fas fa-stream"></i>
+            <a href="#">Overview</a>
+          </li>
+          <li>
+            <i class="fas fa-calendar-week"></i>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <i class="fas fa-question-circle"></i>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <i class="fas fa-sliders-h"></i>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <i class="fas fa-phone-volume"></i>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+          <i class="far fa-comments"></i>
+            <a href="#">Feedback</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social_media">
+        <ul>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div mv-app="myApp" mv-autosave="15" class="mv-autoedit is-absoluteA" mv-storage="https://github.com/GalinhaLX/hello2" mv-bar="with clear with switch-data" mv-plugins="clear cropper">
-	<div mv-listA="monslide">
-		<atomico-keen-slider loop drag selector=".slide" slides-per-view="1, 1 520px" slides-spacing="15">
 
-			<div slot="slide" class="slide">
-				<h1 propertyA="item">1</h1>
-			</div>
-			<div slot="slide" class="slide">
-				<h1 property="item">2</h1>
-			</div>
-            <div slot="slide" class="slide">
-				<h1 property="item">2</h1>
-			</div>
 
-			<button class="button" slot="to-left">←</button>
-			<button class="button" slot="to-right">→</button>
-		</atomico-keen-slider>
-	</div>
-</div>
 
 
 
