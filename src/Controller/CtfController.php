@@ -63,6 +63,16 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+     /**
+     * @Route("/test", name="test")
+     */
+    public function test(): Response
+    {
+        return $this->render('ctf/index.php', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+
 
 
 
