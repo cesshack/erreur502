@@ -14,7 +14,7 @@ class CtfController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('ctf/index.html.twig', [
+        return $this->render('base/index.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -23,7 +23,7 @@ class CtfController extends AbstractController
      */
     public function intro(): Response
     {
-        return $this->render('ctf/intro.html.twig', [
+        return $this->render('base/intro.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -32,7 +32,7 @@ class CtfController extends AbstractController
      */
     public function challenges(): Response
     {
-        return $this->render('ctf/challenges.html.twig', [
+        return $this->render('base/challenges.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -41,7 +41,7 @@ class CtfController extends AbstractController
      */
     public function programmation(): Response
     {
-        return $this->render('ctf/programmation.html.twig', [
+        return $this->render('base/programmation.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -50,7 +50,7 @@ class CtfController extends AbstractController
      */
     public function stegano(): Response
     {
-        return $this->render('ctf/stegano.html.twig', [
+        return $this->render('base/stegano.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -59,7 +59,7 @@ class CtfController extends AbstractController
      */
     public function reseaux(): Response
     {
-        return $this->render('ctf/reseaux.html.twig', [
+        return $this->render('base/reseaux.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
@@ -68,11 +68,19 @@ class CtfController extends AbstractController
      */
     public function test(): Response
     {
-        return $this->render('ctf/index.php', [
+        return $this->render('base/index.php', [
             'controller_name' => 'CtfController',
         ]);
     }
-
+   /**
+     * @Route("/test2", name="test2")
+     */
+    public function test2(): Response
+    {
+        return $this->render('base/defis.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
