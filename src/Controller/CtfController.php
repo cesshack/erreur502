@@ -81,6 +81,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+     /**
+     * @Route("/premierexostegano", name="premierexostegano")
+     */
+    public function premierexostegano(): Response
+    {
+        return $this->render('stegano/premier.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
