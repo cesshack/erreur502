@@ -162,7 +162,7 @@ class CtfController extends AbstractController
      */
     public function quatriemestegano(): Response
     {
-        return $this->render('stegano/quatriemestegano.html.twig', [
+        return $this->render('stegano/quatrieme.html.twig', [
             'controller_name' => 'CtfController',
         ]);
     }
