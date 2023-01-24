@@ -5,13 +5,14 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-     
+  
      <link rel="stylesheet" href="css/programmation.css" type="text/css">
-     <link rel="stylesheet" href="css/bulma.min.css">
+     <link rel="stylesheet" href="css/bulma.min.css" type="text/css">
+     <link rel="stylesheet" href="css/footer.css" type="text/css">
     
   
-  
-    
+
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           
@@ -32,8 +33,14 @@
 </head>
 <body>
 
+<style>
+html{
+  background:rgb(22,0,22);
+}
+</style>
 
 
+<!--- NAVBAR -->
      <div class="main_box">
 
     <input type="checkbox" id="check">
@@ -47,7 +54,7 @@
 
     <div class="sidebar_menu" style="  background: rgba(255, 22, 255, 0.800);  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.219);">
       <div class="logo">
-        <a href="/challenges">ERREUR 502</a>
+        <a href="#">ERREUR 502</a>
           </div>
         <div class="btn_two">
           <label for="check">
@@ -104,74 +111,92 @@
       
     </div>
     <br>
-    <!-- SUITE CODE -->
-   </i><h1 class="h1challenges" style="text-align:center; margin-left: auto;margin-right: auto;top:100%;color:#FFFF;">Challenges Réseaux</h1>
-    <center><div class="column is-6">
-        <table class="table is-narrow is-hoverable is-bordered">
-            <thead><tr><td></td><td></td><td></td><td><center>Liste Challenges</center></td>
-                 <td>Points</td>
-                </tr></thead>
-            <tbody>
-            
-            
-            <tr>
-                <td>
-                    
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                   
-                       <img width="22px" src="img/easy.jpg">
-                   
-                </td>
-                <td><a href="/réseau1">
-                    Petit soucis réseau</a></td>
-                <td>8</td>
-              
-            </tr>
+    <center><div class="column is-9 content " style="background-color:black;">
+    
+        
+        
+            <div class="message is-info" style="background-color:black;color:white;">
+                <div class="message-body content" style="background-color:black;color:white;border-color:white;font-size:24px;" >
+                Pirate et FTP
+                </div>
+            </div></center>
+        
+        
+        
+    <p style="color:whitesmoke;text-align:center;">Un pirate a intercepté un des échanges entre un utilisateur et un serveur FTP.<br>
+    Possèdant ainsi tous les échanges, il a pu repérer son mot de passe ! Saurez-vous le retrouver jeune pirate ? <br>
+    Rentrez le mot de passe dans le google form !</p>
+    <p style="color:whitesmoke;text-align:center;">-------------</p>
+    <br>
 
-            <tr>
-                <td>
-                    
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                   
-                       <img width="22px" src="img/easy.jpg">
-                   
-                </td>
-                <td><a href="/réseau2">
-                    Oubli de mot de passe</a></td>
-                <td>8</td>
-              
-            </tr> 
-            <tr>
-                <td>
-                    
-                </td>
-                <td>
-                    
-                </td>
-                <td>
-                   
-                       <img width="22px" src="img/easy.jpg">
-                   
-                </td>
-                <td><a href="/réseau3">
-                    Pirate et FTP</a></td>
-                <td>10</td>
-              
-            </tr>
+    <div Align=center> <img src= "img/wireshark.png"  width="50%" /> </div>
 
-            </tbody>
-        </table>
+
+ 
+
+    <br>
+
+        <center><div class="message is-info" style="width:30rem;">
+    <div class="message-header " style="background-color:black;border-color:white;">Validation</div>
+    <div class="message-body" style="background-color:whitesmoke;">
+      <form method="post" class="form" action="ans">
+        <div class="field">
+          <div class="control">
+            <input class="input" type="text" placeholder="Entrez votre réponse ici" name="ans">
+          </div>
+          <p class="help"><a href="#">Comment entrer les réponses ?</a></p>
+        </div>
+        <div class="control">
+          <button class="button is-success">Soumettre</button>
+        </div></center>
+        <br>
+      </form>
     </div>
+      <br>
+
 
   </div>
+
+
+    
+    </div>
+    <!-- SUITE CODE -->
+
+
+
+
+
+  </div>
+ <!--FOOTER -->
+   <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6" style:"margin-right:75px;">
+            <h6>À propos de Erreur 502</h6>
+            <p class="text-justify">Erreur502.hackcess.org <i>est une plateforme de e-learning sur la cybersécurité </i> c'est une initiative dévelloper par hackcess pour aider les futurs personnes qui veulent découvrir l'informatique de manieres ludiques elle sucédent à  <a href="https://aladecouverteducyber.hackcess.org/"target="_blank"><code style="background-color:black;color:white;">aladecouverteducyber.hackcess.org</code></a>. Erreur502 se concentre sur la fourniture de challenges dans trois pilliés différents : 
+            Réseaux , Programmation et Stéganographie. Pour plus de renseignements vous pouvez consulter <a href="https://hackcess.org"target="_blank">hackcess.org</a> . </p>
+          </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="https://hackcess.org"target="_blank">Hackcess</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="youtube" href="https://www.youtube.com/channel/UCZw-Ikw2HiOY9qLNhRLScZw"target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/CessHack"><i class="fab fa-twitter"target="_blank"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/hack_cess/"target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/company/hackcess"><i class="fab fa-linkedin"target="_blank"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
 
 </body>
 </html>
