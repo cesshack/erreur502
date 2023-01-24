@@ -185,6 +185,16 @@ class CtfController extends AbstractController
         ]);
     }
 
+        /**
+     * @Route("/cinquiemestegano", name="/cinquiemestegano")
+     */
+    public function cinquieme(): Response
+    {
+        return $this->render('stegano/cinquieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+
 
 
 
