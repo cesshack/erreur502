@@ -63,6 +63,7 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+    
      /**
      * @Route("/test", name="test")
      */
@@ -108,7 +109,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
-
+    /**
+     * @Route("/réseau2", name="deuxiemeexoreseau")
+     */
+    public function deuxiemeexoreseau(): Response
+    {
+        return $this->render('reseaux/deuxieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
        /**
