@@ -101,6 +101,15 @@ class CtfController extends AbstractController
         ]);
     }
     /**
+     * @Route("/police", name="troisiemexostegano")
+     */
+    public function troisiemexostegano(): Response
+    {
+        return $this->render('stegano/troisieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+    /**
      * @Route("/réseau1", name="premierexoreseau")
      */
     public function premierexoreseau(): Response
