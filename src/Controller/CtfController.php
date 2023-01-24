@@ -175,6 +175,16 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+        /**
+     * @Route("/quatriemereseaux", name="/quatriemereseaux")
+     */
+    public function quatriemereseaux(): Response
+    {
+        return $this->render('reseaux/quatrieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+
 
 
 
