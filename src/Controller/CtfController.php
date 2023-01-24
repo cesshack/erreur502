@@ -99,7 +99,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
-
+    /**
+     * @Route("/réseau1", name="premierexoreseau")
+     */
+    public function premierexoreseau(): Response
+    {
+        return $this->render('reseaux/premier.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
