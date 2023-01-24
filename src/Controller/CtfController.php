@@ -90,7 +90,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
-
+    /**
+     * @Route("/décryptage", name="deuxiemexostegano")
+     */
+    public function deuxiemexostegano(): Response
+    {
+        return $this->render('stegano/deuxieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
