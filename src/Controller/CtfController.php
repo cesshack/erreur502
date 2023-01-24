@@ -139,6 +139,15 @@ class CtfController extends AbstractController
         ]);
     }
 
+        /**
+     * @Route("/troisiemeprog", name="troisiemeprog")
+     */
+    public function troisiemeprog(): Response
+    {
+        return $this->render('programmation/troisieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
