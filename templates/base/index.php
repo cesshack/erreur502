@@ -47,7 +47,7 @@ body {
                 <h1>Connexion</h1>
                 <hr class="special-hr">
                 <div class="content">
-                    <form action="">
+                    <form method="post">
                         <input type="email" class="input-field" name="email" placeholder="Adresse mail" requared>
                         <input type="password" class="input-field" class="input-field" name="password"
                             placeholder="Enter Password" requared>
