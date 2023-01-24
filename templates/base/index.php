@@ -1,3 +1,27 @@
+<?php
+
+if(!empty($_POST)){
+    extract($_POST);
+
+
+    $valid = (boolean) true;
+
+    if (isset($_POST['inscription'])){
+        $pseudo = trim($pseudo);
+        $mail = trim($mail);
+        $password = trim($password);
+
+    }
+}
+
+  
+
+  
+    
+
+?>
+
+
 <!DOCTYE html>
 <html lang="fr">
 <head>
@@ -50,10 +74,10 @@ body {
                     <form method="post">
                         <input type="email" class="input-field" name="email" placeholder="Adresse mail" requared>
                         <input type="password" class="input-field" class="input-field" name="password"
-                            placeholder="Enter Password" requared>
+                            placeholder="Entrer le mot de passe" requared>
                         <input type="checkbox" class="check-box" name="checkbox">
                         <label for="checkbox">Se souvenir du mot de passe</label>
-                        <button type="submit" class="submit-btn">Connexion</button>
+                        <button type="submit" name="connexion" class="submit-btn">Connexion</button>
                     </form>
                 </div>
             </div>
@@ -61,15 +85,15 @@ body {
                 <h1>S'inscrire</h1>
                 <hr class="special-hr">
                 <div class="content">
-                    <form action="">
-                        <input type="text" class="input-field" name="name and surname" placeholder="Pseudonyme"
+                    <form method="post">
+                        <input type="text" class="input-field" name="pseudo" placeholder="Pseudonyme"
                             requared>
-                        <input type="email" class="input-field" name="email" placeholder="Adresse mail" requared>
+                        <input type="email" class="input-field" name="mail" placeholder="Adresse mail" requared>
                         <input type="password" class="input-field" name="password" placeholder="Entrer un mot de passe"
                             requared>
                         <input type="checkbox" class="check-box" name="checkbox" required>
                         <label for="checkbox">Je suis d'accord avec les termes et conditions.</label>
-                        <button type="submit" class="submit-btn">S'inscrire</button>
+                        <button type="submit" name="inscription" class="submit-btn">S'inscrire</button>
                     </form>
                 </div>
             </div>
