@@ -127,6 +127,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+    /**
+     * @Route("/réseau3", name="troisiemereseau")
+     */
+    public function troisiemereseau(): Response
+    {
+        return $this->render('reseaux/troisieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
        /**
