@@ -86,12 +86,12 @@ body {
                 <hr class="special-hr">
                 <div class="content">
                     <form method="post">
-                        <input type="text" class="input-field" name="pseudo" placeholder="Pseudonyme"requared>
+                        <input type="text" class="input-field" name="pseudo" placeholder="Pseudonyme" requared>
 
                         <input type="email" class="input-field" name="mail" placeholder="Adresse mail" requared>
 
                         <input type="password" class="input-field" name="password" placeholder="Entrer un mot de passe"requared>
-                        
+
                         <input type="checkbox" class="check-box" name="checkbox" required>
                         <label for="checkbox">Je suis d'accord avec les termes et conditions.</label>
                         <button type="submit" name="inscription" class="submit-btn">S'inscrire</button>
