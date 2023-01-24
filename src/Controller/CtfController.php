@@ -95,4 +95,28 @@ class CtfController extends AbstractController
 
 
 
+       /**
+     * @Route("/premierprog", name="premierprog")
+     */
+    public function premierprog(): Response
+    {
+        return $this->render('programmation/premier.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+        /**
+     * @Route("/deuxiemeprog", name="deuxiemeprog")
+     */
+    public function deuxiemeprog(): Response
+    {
+        return $this->render('programmation/deuxieme.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
+
+
+
+
+
+
 }
