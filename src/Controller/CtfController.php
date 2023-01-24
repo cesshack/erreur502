@@ -157,6 +157,15 @@ class CtfController extends AbstractController
             'controller_name' => 'CtfController',
         ]);
     }
+    /**
+     * @Route("/quatriemestegano", name="quatriemestegano")
+     */
+    public function quatriemestegano(): Response
+    {
+        return $this->render('stegano/quatriemestegano.html.twig', [
+            'controller_name' => 'CtfController',
+        ]);
+    }
 
 
 
