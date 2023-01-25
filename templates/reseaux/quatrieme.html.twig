@@ -4,7 +4,8 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+      
+    
   
      <link rel="stylesheet" href="css/programmation.css" type="text/css">
      <link rel="stylesheet" href="css/bulma.min.css" type="text/css">
@@ -32,6 +33,7 @@
      <link rel="icon" type="img/icon.png" href="img/icon.png" sizes="32x32">
 </head>
 <body>
+
 
 <style>
 html{
@@ -152,21 +154,22 @@ html{
         <center><div class="message is-info" style="width:30rem;">
     <div class="message-header " style="background-color:black;border-color:white;">Validation</div>
     <div class="message-body" style="background-color:whitesmoke;">
-      <form  onsubmit="alert('submit!');return false">
+
+      <form  method="" class="form" action="">
         <div class="field">
           <div class="control">
-            <input class="input" type="text" placeholder="Entrez votre réponse ici" name="">
+            <input class="input" type="text" placeholder="Entrez votre réponse ici" name="" id="ans">
           </div>
           <p class="help"><a href="#">Comment entrer les réponses ?</a></p>
         </div>
         <div class="control">
-          <button class="button is-success">Soumettre</button>
+          <button tpye="submit" class="button is-success">Soumettre</button>
         </div></center>
         <br>
       </form>
     </div>
       <br>
-
+ <script src="js/r.js"></script>
 
   </div>
 
@@ -221,7 +224,6 @@ html{
 
   
  
-
 
 	
 </body>
