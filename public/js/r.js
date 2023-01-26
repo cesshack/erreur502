@@ -59,7 +59,7 @@ document.forms[0].addEventListener("submit", function(evenement) {
     if (document.getElementById("ans5").value == "cdts3500") {
         evenement.preventDefault();
         alert("Vous avez trouvez le flag");
-        document.getElementById("ans").focus();
+        document.getElementById("ans5").focus();
     }
     else {
         alert("Ce n'est pas le bon flag");
@@ -72,7 +72,7 @@ document.forms[0].addEventListener("submit", function(evenement) {
     if (document.getElementById("ans6").value == "bravoflag2") {
         evenement.preventDefault();
         alert("Vous avez trouvez le flag");
-        document.getElementById("ans").focus();
+        document.getElementById("ans6").focus();
     }
     else {
         alert("Ce n'est pas le bon flag");
@@ -80,12 +80,53 @@ document.forms[0].addEventListener("submit", function(evenement) {
     }
   
 });
-//EXO 2 STEGANO
+//EXO 3 STEGANO
+document.forms[0].addEventListener("submit", function(evenement) { 
+    if (document.getElementById("ans8").value == "flag suspect") {
+        evenement.preventDefault();
+        alert("Vous avez trouvez le flag");
+        document.getElementById("ans8").focus();
+    }
+    else {
+        alert("Ce n'est pas le bon flag");
+       
+    }
+  
+});
+//EXO ASCII 4 STEGANO
 document.forms[0].addEventListener("submit", function(evenement) { 
     if (document.getElementById("ans7").value == "Bienvenue à l'IUT de Roanne !!") {
         evenement.preventDefault();
         alert("Vous avez trouvez le flag");
-        document.getElementById("ans").focus();
+        document.getElementById("ans7").focus();
+    }
+    else {
+        alert("Ce n'est pas le bon flag");
+       
+    }
+  
+});
+
+//EXO  1 PROG
+document.forms[0].addEventListener("submit", function(evenement) { 
+    if (document.getElementById("ans9").value == "7068") {
+        evenement.preventDefault();
+        alert("Vous avez trouvez le flag");
+        document.getElementById("ans9").focus();
+    }
+    else {
+        alert("Ce n'est pas le bon flag");
+       
+    }
+  
+});
+
+//EXO  5 STEGANO
+document.forms[0].addEventListener("submit", function(evenement) { 
+    if (document.getElementById("ans10").value == "YOUFINDIT") {
+        evenement.preventDefault();
+        alert("Vous avez trouvez le flag");
+        document.getElementById("ans10").focus();
     }
     else {
         alert("Ce n'est pas le bon flag");
