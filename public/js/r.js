@@ -134,3 +134,17 @@ document.forms[0].addEventListener("submit", function(evenement) {
     }
   
 });
+
+//EXO  5 RESEAUX
+document.forms[0].addEventListener("submit", function(evenement) { 
+    if (document.getElementById("ans11").value == "switcherreur502") {
+        evenement.preventDefault();
+        alert("Vous avez trouvez le flag");
+        document.getElementById("ans11").focus();
+    }
+    else {
+        alert("Ce n'est pas le bon flag");
+       
+    }
+  
+});
