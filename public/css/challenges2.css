@@ -17,6 +17,7 @@ body{
 .card{
     grid-area: text;
     margin-left: 8rem;
+    margin-right: 8rem;
     border-radius: 0px;
     box-shadow: 0 0 5px 1px rgb(0, 0, 0);
     margin-top: 0.5rem;
